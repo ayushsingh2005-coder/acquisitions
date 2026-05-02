@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      target: production
+    env_file:
+      - .env.production
+    ports:
+      - '3000:3000'
+    command: npm start
