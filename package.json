@@ -6,7 +6,7 @@
   "imports": {
     "#config/*": "./src/config/*",
     "#controllers/*": "./src/controllers/*",
-    "#middlewares/*": "./src/middlewares/*",
+    "#middleware/*": "./src/middleware/*",
     "#models/*": "./src/models/*",
     "#routes/*": "./src/routes/*",
     "#services/*": "./src/services/*",
