@@ -36,7 +36,7 @@ jobs:
           npm test
           echo "## Test Results :rocket:" >> $GITHUB_STEP_SUMMARY
           echo "Tests ran successfully! Coverage reports are available in the artifacts." >> $GITHUB_STEP_SUMMARY
-      
+
       - name: Test Failure Annotation
         if: failure() && steps.run_tests.outcome == 'failure'
         run: |

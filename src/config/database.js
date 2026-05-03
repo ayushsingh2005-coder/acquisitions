@@ -16,7 +16,7 @@ const databaseHost = (() => {
 })();
 
 const isNeonLocalHost = ['neon-local', 'localhost', '127.0.0.1'].includes(
-  databaseHost,
+  databaseHost
 );
 const useNeonLocal =
   process.env.USE_NEON_LOCAL === 'true' ||

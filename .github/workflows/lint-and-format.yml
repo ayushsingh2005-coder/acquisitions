@@ -33,7 +33,7 @@ jobs:
       - name: Run ESLint
         run: npm run lint
         continue-on-error: false
-        
+
       - name: Suggest fixes on failure
         if: failure()
         run: |
