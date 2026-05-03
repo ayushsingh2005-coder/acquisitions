@@ -119,3 +119,5 @@ The project utilizes GitHub Actions to ensure code quality and seamless deployme
 1. **Lint and Format**: Runs `eslint` and `prettier` on every pull request and push to `main` and `staging`.
 2. **Tests**: Executes Jest test suites, passing necessary environments, and uploads code coverage as an artifact.
 3. **Docker Build and Push**: Automatically triggers on `main` branch merges, executing a multi-platform (`amd64`, `arm64`) Docker Buildx task. Images are tagged dynamically (including short SHAs and timestamps) and published securely to Docker Hub.
+
+## Thank you
